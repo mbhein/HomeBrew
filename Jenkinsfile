@@ -7,6 +7,10 @@ node {
 
         checkout scm
     }
+    
+    stage('Pre-build') {
+        echo 'Pre-build stage'
+    }
 
     stage('Build image') {
         /* This builds the actual image; synonymous to
