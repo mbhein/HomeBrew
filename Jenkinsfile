@@ -1,4 +1,5 @@
 node {
+    //adding a comment
     def app
 
     stage('Clone repository') {
